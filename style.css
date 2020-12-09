@@ -30,6 +30,10 @@ body{
   position: top;
 }
 
+.navbar{
+  justify-content: center;
+}
+
 .banner .navbar{
   margin-top: 20px;
 }
@@ -43,7 +47,6 @@ body{
 
 .banner .nav{
   margin-right:10%;
-
 }
 
 .banner .navbar li a {
@@ -52,6 +55,6 @@ body{
 }
 
 .banner .navbar li a:hover {
-  color:dodgerblue;
+  color:#9E9E9E;
   font-size:1.2em
 }
