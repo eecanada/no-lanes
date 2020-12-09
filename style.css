@@ -5,7 +5,7 @@ body{
   font-family: 'Ralway', sans-serif;
   color: #fff;
   background-color: black;
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
 }
