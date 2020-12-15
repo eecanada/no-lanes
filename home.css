@@ -94,3 +94,9 @@ body{
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+
+.music{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between
+}
