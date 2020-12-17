@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Ralway', sans-serif;
+  color: #fff;
+  background-color: black;
+  animation: fadeInAnimation ease 7s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+.banner{
+  height: 100vh;
+  width: 100%;
+  background:url('./images/nolanesLogo.jpeg');
+  /* background-color: black; */
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  position: top;
+}
+
+.navbar{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.banner .navbar{
+  margin-top: 20px;
+}
+
+.banner .navbar-brand{
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-left: 10%
+}
+
+.banner .nav{
+  margin-right:10%;
+}
+
+.banner .navbar li a {
+  color: #fff;
+  font-size:1.1em
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #9E9E9E;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.banner .navbar li a:hover {
+  color:#9E9E9E;
+  font-size:1.2em
+}
+
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.music{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center
+}
