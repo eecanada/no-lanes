@@ -1,0 +1,1 @@
+var cookiePolicy = document.querySelector(".cookiePolicy ").style.display = "none"
