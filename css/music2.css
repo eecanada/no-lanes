@@ -159,17 +159,29 @@ display: flex;
 #test{
   color:black;
   margin-top:30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
 
 }
 
 .songTitle{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 .photoText{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 
 }
 
+
+.music{
+  margin-left:20px;
+}
+
+#soundCloudTitle{
+  color:black;
+  margin-bottom:30px
+
+}
