@@ -179,6 +179,7 @@ display: flex;
 .music{
   margin-left:20px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 #soundCloudTitle{
