@@ -57,7 +57,8 @@ body{
 }
 
 .nav-link{
-  color: black
+  color: black;
+  font-size: 14px;
 }
 
 a {
