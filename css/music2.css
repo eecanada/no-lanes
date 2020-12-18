@@ -4,7 +4,7 @@ body{
   background-color: #fff;
   font-family: 'Ralway', sans-serif;
   color: #fff;
-  background-color: black;
+  background-color: white;
   animation: fadeInAnimation ease 7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
@@ -22,7 +22,7 @@ body{
   height: 100vh;
   width: 100%;
   background:url('./images/nolanesLogo.jpeg');
-  /* background-color: black; */
+  background-color: white;
   background-position: center;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -33,7 +33,6 @@ body{
 .navbar{
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 10px
 }
 
 .banner .navbar{
@@ -51,6 +50,10 @@ body{
   margin-right:10%;
 }
 
+.nav-link {
+  font-size: 14px;
+  color: black;
+}
 .banner .navbar li a {
   color: #fff;
   font-size:1.1em
@@ -63,7 +66,7 @@ a {
 }
 
 a:hover {
-  color: #9E9E9E;
+  color: #a0a0a0;
   text-decoration: none;
   background-color: transparent;
 }
@@ -110,9 +113,63 @@ a:hover {
 }
 
 
-
-#musicVideo{
-  display: flex;
-  width: 100vw;
-  height: 90vh
+p{
+  padding: 10px 0;
 }
+
+.photo {
+	position: relative;
+	/* line-height: 0; */
+	overflow: hidden;
+  width: 50; /* THIS IS THE ELEMENT THAT RESIZES BOTH PHOTO AND THE OVERLAY TEXT */
+  height: 80%;
+  margin:0 20px 0 20px
+}
+
+.photo-container img {
+ 	width: 100%;
+}
+
+/* ---- Photo Overlay ---- */
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	/* padding: 5vw 10vw; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	background: rgba(0,0,0, .55);
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.photo-overlay:hover {
+  opacity: 0;
+}
+
+.albumCovers{
+display: flex;
+}
+
+#test{
+  color:black;
+  margin-top:30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.songTitle{
+  font-family: 'Roboto', sans-serif;
+}
+
+.photoText{
+  font-family: 'Roboto', sans-serif;
+
+}
+

@@ -4,7 +4,7 @@ body{
   background-color: #fff;
   font-family: 'Ralway', sans-serif;
   color: #fff;
-  background-color: black;
+  background-color: white;
   animation: fadeInAnimation ease 7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
@@ -33,6 +33,7 @@ body{
 .navbar{
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 10px
 }
 
 .banner .navbar{
@@ -53,6 +54,10 @@ body{
 .banner .navbar li a {
   color: #fff;
   font-size:1.1em
+}
+
+.nav-link{
+  color: black
 }
 
 a {
@@ -108,9 +113,10 @@ a:hover {
 	transform: translateX(0px);
 }
 
-.music{
-  margin-top: 50px;
-  margin-bottom: 50px;
+
+
+#musicVideo{
   display: flex;
-  justify-content: center
+  width: 100vw;
+  height: 90vh
 }
