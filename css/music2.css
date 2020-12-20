@@ -29,17 +29,17 @@ body{
   background-repeat: no-repeat;
   position: top;
 }
+.navbar-brand{
+color: BLACK;
+}
 
 .navbar{
-  /* justify-content: center;
-  margin-top: 20px; */
   justify-content: center;
     padding-top: 20px;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
-    /* margin-bottom: 80px; */
     background-color: white;
 }
 
@@ -130,7 +130,7 @@ p{
 	/* line-height: 0; */
 	overflow: hidden;
   width: 50; /* THIS IS THE ELEMENT THAT RESIZES BOTH PHOTO AND THE OVERLAY TEXT */
-  height: 80%;
+  /* height: 80%; */
   margin:0 20px 0 20px
 }
 
@@ -163,8 +163,9 @@ p{
 .albumCovers{
 display: flex;
 background-color: #E1E1E1;
-padding-top: 60px;
-margin-top: -60px
+padding-top: 65px;
+margin-top: -60px;
+padding-bottom: 60px;
 }
 
 #test{
@@ -184,6 +185,7 @@ margin-top: -60px
 .photoText{
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
+  font-size: 12px;
 
 }
 
