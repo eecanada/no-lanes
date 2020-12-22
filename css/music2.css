@@ -127,11 +127,10 @@ p{
 
 .photo {
 	position: relative;
-	/* line-height: 0; */
 	overflow: hidden;
-  width: 50; /* THIS IS THE ELEMENT THAT RESIZES BOTH PHOTO AND THE OVERLAY TEXT */
-  /* height: 80%; */
-  margin:0 20px 0 20px
+  height: 100%;
+  width: 90%;
+  margin:0 10px 0 8px;
 }
 
 .photo-container img {
@@ -174,7 +173,7 @@ padding-bottom: 60px;
   /* margin-bottom: 20px; */
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
 
 }
 
@@ -253,25 +252,25 @@ display: flex
 #streamFromText{
   font-weight: bold;
   font-size: 25px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
 }
 
 #streamFrom{
   margin-left: 80px;
   color: black;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
 }
 
 #soundCloudText{
   
   color: black;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-decoration: underline;
 }
 
 #youTubeText{
   
   color: black;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-decoration: underline;
 }
