@@ -3,11 +3,12 @@ body{
   padding: 0;
   background-color: #fff;
   font-family: 'Ralway', sans-serif;
-  color: #fff;
+  color: black;
   background-color: black;
   animation: fadeInAnimation ease 7s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
+  color:black
 }
 @keyframes fadeInAnimation { 
   0% { 
@@ -21,11 +22,10 @@ body{
 .banner{
   height: 100vh;
   width: 100vw;
-  background:url('../images/whiteLogo.jpg');
+  /* background:url('../images/whiteLogo.jpg'); */
   background-color: white;
   background-position: center;
   background-size: 700px 600px;
-  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   position: top;
 }
@@ -100,4 +100,135 @@ body{
   margin-top: 20px;
   display: flex;
   justify-content: space-between
+}
+
+#playlist{
+margin-left: 100px
+}
+
+
+#listenTo{
+  margin-left: 210px;
+  margin-top: 50px;
+  /* text-align: center; */
+  line-height: 10px;
+}
+
+#firstRow{
+display: flex;
+position: relative;
+/* left: 10%; */
+margin-top: 30px;
+
+
+}
+
+#noLanesImage{
+position: relative;
+margin-left:300px;
+
+}
+ 
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Ralway', sans-serif;
+  color:black
+ 
+}
+
+.jumbotron{
+  background-color: white;
+  color: black;
+  /* position: relative; */
+  }
+
+#merchImage {
+    margin-left: 900px;
+    /* margin-bottom: 100px; */
+}
+
+#merch{
+  position: relative;
+  margin-left: 1000px;
+  color: black;
+  margin-top: 100px;
+  
+  
+}
+
+#musicVideoText{
+text-align:center;
+margin-top: 100px;
+}
+
+#musicVideo{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#gram{
+  background-color: #E1E1E1;
+  padding: 100px 0 100px 0;
+  position: relative;
+}
+
+
+.gramText{
+  margin-left: 70%;
+  font-size: 70px;
+  font-weight: bold;
+  
+  
+  
+  
+}
+.gramText1{
+  margin-left: 70%;
+  text-decoration: underline;  
+}
+
+.gramText1 a{
+  color: black;
+}
+
+.footerImage {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.2), rgba(0,0,0,0.5) ), url("../images/ginoCar.JPG");
+  display: flex
+}
+
+.footerImage div {
+  width: 100px;
+  height: 100px;
+}
+
+.fa{
+  margin-left: 30px;
+  /* margin-right:30px ; */
+  /* color:black */
+}
+
+#footerIcon{
+  display: flex;
+  position: relative;
+  top: 80%;
+  left: 45%;
+  font-size: 40px;
+  
+}
+
+#footerCopyRight{
+  display: flex;
+  position: relative;
+  top: 85%;
+  left: 43%;
+  font-size: 14px;
+  width: 300px;
+  margin-top:20px;
+  /* color:black */
 }
