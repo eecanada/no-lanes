@@ -32,10 +32,16 @@ body{
 
 .navbar{
   justify-content: center;
+  padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
 }
 
 .banner .navbar{
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .banner .navbar-brand{
